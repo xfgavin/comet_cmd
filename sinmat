@@ -1,0 +1,3 @@
+#!/bin/bash
+#/opt/singularity/bin/singularity shell -w /oasis/scratch/comet/xfgavin/temp_project/singularity/MMPS.img -c "unset LS_COLORS;~/bin/call_matlab.csh"
+/opt/singularity/bin/singularity shell --cleanenv /oasis/scratch/comet/xfgavin/temp_project/singularity/MMPS.img -c "/bin/tcsh -c 'mat'"

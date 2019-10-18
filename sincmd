@@ -1,0 +1,5 @@
+#!/bin/bash
+#/opt/singularity/bin/singularity shell -w /oasis/scratch/comet/xfgavin/temp_project/singularity/MMPS.img -c "unset LS_COLORS;csh"
+SINGULARITYENV_HELLO=WORLD /opt/singularity/bin/singularity shell --cleanenv /oasis/scratch/comet/xfgavin/temp_project/singularity/MMPS.img -c "unset LS_COLORS;csh"
+#SINGULARITYENV_HELLO=WORLD /opt/singularity/bin/singularity shell /oasis/scratch/comet/xfgavin/temp_project/singularity/MMPS.img -c "csh"
+# singularity exec --cleanenv centos7.img env
